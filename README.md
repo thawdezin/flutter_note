@@ -15,3 +15,10 @@ WidgetsBinding.instance.addPostFrameCallback((_) {
 });
 ```
 
+
+# Add Flutter
+
+``` export PATH="/Users/thawdezin/Flutter/flutter/bin:$PATH" ```
+
+## Upgrade Flutter
+``` flutter pub upgrade --major-versions ```
