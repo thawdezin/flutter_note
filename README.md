@@ -22,3 +22,7 @@ WidgetsBinding.instance.addPostFrameCallback((_) {
 
 ## Upgrade Flutter
 ``` flutter pub upgrade --major-versions ```
+
+
+### စာသားအစိမ်းလိုင်း Spelling မှား ဖျောက်ဖို့
+``` Android 4.1.1: File -> Preferences -> Editor -> Inspections -> Proofreading -> Typo ```
