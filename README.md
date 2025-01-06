@@ -26,3 +26,17 @@ WidgetsBinding.instance.addPostFrameCallback((_) {
 
 ### စာသားအစိမ်းလိုင်း Spelling မှား ဖျောက်ဖို့
 ``` Android 4.1.1: File -> Preferences -> Editor -> Inspections -> Proofreading -> Typo ```
+
+
+### To clear all iOS related things
+
+```
+flutter clean
+rm pubspec.lock
+rm -rf ./ios/.symlinks
+rm -rf ./ios/Pods
+rm ./ios/Podfile.lock
+flutter pub get
+cd ios ; pod repo update ; pod update ; cd ..
+flutter run
+```
