@@ -40,3 +40,14 @@ flutter pub get
 cd ios ; pod repo update ; pod update ; cd ..
 flutter run
 ```
+
+
+To fix an individual diagnostic, run one of:
+  ```dart fix --apply --code=avoid_function_literals_in_foreach_calls ```
+  ```dart fix --apply --code=duplicate_import ```
+  ```dart fix --apply --code=unnecessary_string_interpolations ```
+  ```dart fix --apply --code=unused_import ```
+
+To fix all diagnostics, run:
+  ```dart fix --apply```  
+  
