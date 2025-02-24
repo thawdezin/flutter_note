@@ -43,13 +43,13 @@ flutter run
 
 
 To fix an individual diagnostic, run one of:
-  ```dart fix --apply --code=avoid_function_literals_in_foreach_calls ```
-  ```dart fix --apply --code=duplicate_import ```
-  ```dart fix --apply --code=unnecessary_string_interpolations ```
-  ```dart fix --apply --code=unused_import ```
+  ```dart fix --apply --code=avoid_function_literals_in_foreach_calls ```<br/>
+  ```dart fix --apply --code=duplicate_import ```<br/>
+  ```dart fix --apply --code=unnecessary_string_interpolations ```<br/>
+  ```dart fix --apply --code=unused_import ```<br/>
 
 To fix all diagnostics, run:
-  ```dart fix --apply```  
+  ```dart fix --apply```<br/>  
   
 ## Get CLI
 ``` dart pub global deactivate get_cli ```<br/>
