@@ -51,3 +51,7 @@ To fix an individual diagnostic, run one of:
 To fix all diagnostics, run:
   ```dart fix --apply```  
   
+## Get CLI
+``` dart pub global deactivate get_cli ```<br/>
+``` dart pub global activate -s git https://github.com/knottx/get_cli.git ```<br/>
+``` flutter pub global activate get_cli 1.8.0 ```<br/>  
