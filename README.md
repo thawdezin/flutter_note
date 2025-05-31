@@ -1,6 +1,8 @@
 # flutter_note
 
+## Shortcuts
 
+To expand or shrink methods ``` Cmd Shift - or + ```
 To select an entire widget in Flutter while using Android Studio on macOS, you can use the shortcut ``` Option + Up Arrow (⌥ + ↑). ```
 
 ```
