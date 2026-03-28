@@ -1,4 +1,22 @@
-# flutter_note
+#  Flutter Note by Me 😂
+
+
+<pre><code>flutter build appbundle --release --build-name=1.0.12 --build-number=12 --no-tree-shake-icons</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
+<pre><code>flutter build ios --release --no-tree-shake-icons --build-name=1.0.2 --build-number=1</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
+<pre><code>distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-all.zip</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
+<pre><code>ndkVersion = "29.0.14206865"</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
 
 ## Shortcuts
 
