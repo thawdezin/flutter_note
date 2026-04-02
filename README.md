@@ -1,5 +1,12 @@
 #  Flutter Note by Me 😂
 
+<pre><code>cd ~/.gradle/wrapper/dists</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
+<pre><code>cd ~/Library/Android/sdk/ndk</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
 
 <pre><code>flutter build appbundle --release --build-name=1.0.12 --build-number=12 --no-tree-shake-icons</code></pre>
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
