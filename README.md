@@ -8,7 +8,7 @@
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
-<pre><code>flutter build appbundle --release --build-name=1.0.12 --build-number=12 --no-tree-shake-icons</code></pre>
+<pre><code>flutter build appbundle --release --build-name=1.0.12 --build-number=12 --no-tree-shake-icons --obfuscate --split-debug-info</code></pre>
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
