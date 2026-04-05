@@ -8,6 +8,10 @@
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
+<pre><code>flutter run --release --verbose --dart-define=LOCAL_RELEASE=true --obfuscate</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
 <pre><code>flutter build appbundle --release --build-name=1.0.12 --build-number=12 --no-tree-shake-icons --obfuscate --split-debug-info=symbols/android_1.0.12_12</code></pre>
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
