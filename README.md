@@ -12,11 +12,11 @@
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
-<pre><code>flutter build appbundle --release --build-name=1.0.12 --build-number=12 --no-tree-shake-icons --obfuscate --split-debug-info=symbols/android_1.0.12_12</code></pre>
+<pre><code>./build_release.sh appbundle --build-name=1.0.12 --build-number=12</code></pre>
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
-<pre><code>flutter build ios --release --no-tree-shake-icons --build-name=1.0.2 --build-number=1</code></pre>
+<pre><code>./build_release.sh ios --build-name=1.0.2 --build-number=1</code></pre>
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
