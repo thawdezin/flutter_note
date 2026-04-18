@@ -12,6 +12,10 @@
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
+<pre><code>flutter build appbundle --release --build-name=1.2.2 --build-number=55 --obfuscate --split-debug-info=symbols/android_1.2.2_55</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
 <pre><code>./build_release.sh appbundle --build-name=1.0.12 --build-number=12</code></pre>
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
