@@ -36,6 +36,13 @@
 <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
 </button>
 
+<pre><code>./gradlew :shared:linkReleaseFrameworkIosArm64</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
+
+<pre><code>./gradlew :shared:linkDebugFrameworkIosArm64</code></pre>
+<button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText);">
+</button>
 
 ## Shortcuts
 
